@@ -25,7 +25,7 @@ To run the calculator application locally, follow these steps:
 2. Open the solution in Visual Studio or your preferred .NET IDE.
 3. Build the solution to restore dependencies and compile the code.
 4. Press F5 or use the IDE's debugging features to launch the application.
-5. The calculator will open in your default web browser.
+5. The calculator will open in a new window.
 6. Use the buttons on the form or the corresponding keyboard keys to perform calculations.
 
 ## Contributing
