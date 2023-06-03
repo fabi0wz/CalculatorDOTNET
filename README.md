@@ -37,12 +37,3 @@ Contributions are welcome! If you'd like to contribute to this calculator applic
 3. Make your changes and test them thoroughly.
 4. Commit your changes and push them to your forked repository.
 5. Submit a pull request detailing your changes and explaining the purpose of the pull request.
-
-## License
-
-This calculator application is licensed under the [MIT License](LICENSE). Feel free to modify and use it according to your needs.
-
-## Acknowledgements
-
-- [OpenAI](https://openai.com/): The underlying language model used for generating this README.
-
