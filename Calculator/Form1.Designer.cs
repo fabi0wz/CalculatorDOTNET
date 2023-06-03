@@ -49,6 +49,7 @@
             this.btndelete = new System.Windows.Forms.Button();
             this.typedisplay = new System.Windows.Forms.TextBox();
             this.calclabel = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnnegative
@@ -345,6 +346,21 @@
             this.calclabel.TabIndex = 21;
             this.calclabel.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(201, 204);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 71);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "CE";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Calculator
             // 
             this.AllowDrop = true;
@@ -352,6 +368,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(659, 735);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.calclabel);
             this.Controls.Add(this.typedisplay);
             this.Controls.Add(this.btndelete);
@@ -403,5 +420,6 @@
         private Button btndelete;
         private TextBox typedisplay;
         private TextBox calclabel;
+        private Button button1;
     }
 }

@@ -283,5 +283,14 @@ namespace Calculator
                 e.Handled = true;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            typedisplay.Text = "";
+            calclabel.Text = "";
+            negativeCheck = false;
+            IsCalulating = false;
+            isDecimal = false;
+        }
     }
 }
